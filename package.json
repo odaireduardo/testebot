@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-assistente-tecnico",
+  "version": "1.0.0",
+  "description": "Um bot de WhatsApp que responde perguntas técnicas com base em documentos PDF.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "gemini",
+    "ai",
+    "pdf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.14.0",
+    "dotenv": "^16.4.5",
+    "pdf-parse": "^1.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
